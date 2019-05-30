@@ -15,6 +15,9 @@
 		8EA0472A229FAEC6001205A1 /* BWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA04729229FAEC6001205A1 /* BWUITests.swift */; };
 		8EA04735229FAEC6001205A1 /* BWUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA04734229FAEC6001205A1 /* BWUIUITests.swift */; };
 		98AC5AAE229FB19A00A4A644 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98AC5AAD229FB19A00A4A644 /* Register.storyboard */; };
+		98AC5AB0229FB63A00A4A644 /* RegisterDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC5AAF229FB63A00A4A644 /* RegisterDetailsVC.swift */; };
+		98AC5AB2229FD9CC00A4A644 /* BWRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC5AB1229FD9CC00A4A644 /* BWRegisterVC.swift */; };
+		98AC5AB4229FDC9200A4A644 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98AC5AB3229FDC9200A4A644 /* Color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8EA04734229FAEC6001205A1 /* BWUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWUIUITests.swift; sourceTree = "<group>"; };
 		8EA04736229FAEC6001205A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98AC5AAD229FB19A00A4A644 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		98AC5AAF229FB63A00A4A644 /* RegisterDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDetailsVC.swift; sourceTree = "<group>"; };
+		98AC5AB1229FD9CC00A4A644 /* BWRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWRegisterVC.swift; sourceTree = "<group>"; };
+		98AC5AB3229FDC9200A4A644 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +107,12 @@
 			children = (
 				8EA04714229FAEC5001205A1 /* AppDelegate.swift */,
 				8EA04716229FAEC5001205A1 /* ViewController.swift */,
+				98AC5AAF229FB63A00A4A644 /* RegisterDetailsVC.swift */,
+				98AC5AB1229FD9CC00A4A644 /* BWRegisterVC.swift */,
 				8EA04718229FAEC5001205A1 /* Main.storyboard */,
 				98AC5AAD229FB19A00A4A644 /* Register.storyboard */,
 				8EA0471B229FAEC6001205A1 /* Assets.xcassets */,
+				98AC5AB3229FDC9200A4A644 /* Color.xcassets */,
 				8EA0471D229FAEC6001205A1 /* LaunchScreen.storyboard */,
 				8EA04720229FAEC6001205A1 /* Info.plist */,
 			);
@@ -234,6 +243,7 @@
 			files = (
 				8EA0471F229FAEC6001205A1 /* LaunchScreen.storyboard in Resources */,
 				8EA0471C229FAEC6001205A1 /* Assets.xcassets in Resources */,
+				98AC5AB4229FDC9200A4A644 /* Color.xcassets in Resources */,
 				8EA0471A229FAEC5001205A1 /* Main.storyboard in Resources */,
 				98AC5AAE229FB19A00A4A644 /* Register.storyboard in Resources */,
 			);
@@ -260,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98AC5AB2229FD9CC00A4A644 /* BWRegisterVC.swift in Sources */,
+				98AC5AB0229FB63A00A4A644 /* RegisterDetailsVC.swift in Sources */,
 				8EA04717229FAEC5001205A1 /* ViewController.swift in Sources */,
 				8EA04715229FAEC5001205A1 /* AppDelegate.swift in Sources */,
 			);
