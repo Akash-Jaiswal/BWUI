@@ -16,6 +16,13 @@
 		8EA0471F229FAEC6001205A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0471D229FAEC6001205A1 /* LaunchScreen.storyboard */; };
 		8EA0472A229FAEC6001205A1 /* BWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA04729229FAEC6001205A1 /* BWUITests.swift */; };
 		8EA04735229FAEC6001205A1 /* BWUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA04734229FAEC6001205A1 /* BWUIUITests.swift */; };
+		98AC5AAE229FB19A00A4A644 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98AC5AAD229FB19A00A4A644 /* Register.storyboard */; };
+		98AC5AB0229FB63A00A4A644 /* RegisterDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC5AAF229FB63A00A4A644 /* RegisterDetailsVC.swift */; };
+		98AC5AB2229FD9CC00A4A644 /* BWRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC5AB1229FD9CC00A4A644 /* BWRegisterVC.swift */; };
+		98AC5AB4229FDC9200A4A644 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98AC5AB3229FDC9200A4A644 /* Color.xcassets */; };
+		98AC5AB8229FF4E800A4A644 /* RegisterSecurityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC5AB7229FF4E800A4A644 /* RegisterSecurityVC.swift */; };
+		98AC5ABB229FF55D00A4A644 /* RegisterSecurityViewXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC5ABA229FF55D00A4A644 /* RegisterSecurityViewXib.swift */; };
+		98AC5ABD229FF57B00A4A644 /* RegisterSecurityViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98AC5ABC229FF57B00A4A644 /* RegisterSecurityViewXib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		8EA04730229FAEC6001205A1 /* BWUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA04734229FAEC6001205A1 /* BWUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWUIUITests.swift; sourceTree = "<group>"; };
 		8EA04736229FAEC6001205A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98AC5AAD229FB19A00A4A644 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		98AC5AAF229FB63A00A4A644 /* RegisterDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDetailsVC.swift; sourceTree = "<group>"; };
+		98AC5AB1229FD9CC00A4A644 /* BWRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWRegisterVC.swift; sourceTree = "<group>"; };
+		98AC5AB3229FDC9200A4A644 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		98AC5AB7229FF4E800A4A644 /* RegisterSecurityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSecurityVC.swift; sourceTree = "<group>"; };
+		98AC5ABA229FF55D00A4A644 /* RegisterSecurityViewXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSecurityViewXib.swift; sourceTree = "<group>"; };
+		98AC5ABC229FF57B00A4A644 /* RegisterSecurityViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterSecurityViewXib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +119,14 @@
 				8E1D9DF4229FE4A800C003E6 /* UIView.swift */,
 				8EA04714229FAEC5001205A1 /* AppDelegate.swift */,
 				8EA04716229FAEC5001205A1 /* ViewController.swift */,
+				98AC5AAF229FB63A00A4A644 /* RegisterDetailsVC.swift */,
+				98AC5AB1229FD9CC00A4A644 /* BWRegisterVC.swift */,
+				98AC5AB7229FF4E800A4A644 /* RegisterSecurityVC.swift */,
+				98AC5AB9229FF53B00A4A644 /* CustomViews */,
 				8EA04718229FAEC5001205A1 /* Main.storyboard */,
+				98AC5AAD229FB19A00A4A644 /* Register.storyboard */,
 				8EA0471B229FAEC6001205A1 /* Assets.xcassets */,
+				98AC5AB3229FDC9200A4A644 /* Color.xcassets */,
 				8EA0471D229FAEC6001205A1 /* LaunchScreen.storyboard */,
 				8EA04720229FAEC6001205A1 /* Info.plist */,
 			);
@@ -129,6 +149,15 @@
 				8EA04736229FAEC6001205A1 /* Info.plist */,
 			);
 			path = BWUIUITests;
+			sourceTree = "<group>";
+		};
+		98AC5AB9229FF53B00A4A644 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				98AC5ABA229FF55D00A4A644 /* RegisterSecurityViewXib.swift */,
+				98AC5ABC229FF57B00A4A644 /* RegisterSecurityViewXib.xib */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA0471F229FAEC6001205A1 /* LaunchScreen.storyboard in Resources */,
+				98AC5ABD229FF57B00A4A644 /* RegisterSecurityViewXib.xib in Resources */,
 				8EA0471C229FAEC6001205A1 /* Assets.xcassets in Resources */,
+				98AC5AB4229FDC9200A4A644 /* Color.xcassets in Resources */,
 				8EA0471A229FAEC5001205A1 /* Main.storyboard in Resources */,
+				98AC5AAE229FB19A00A4A644 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98AC5AB2229FD9CC00A4A644 /* BWRegisterVC.swift in Sources */,
+				98AC5AB0229FB63A00A4A644 /* RegisterDetailsVC.swift in Sources */,
 				8EA04717229FAEC5001205A1 /* ViewController.swift in Sources */,
+				98AC5AB8229FF4E800A4A644 /* RegisterSecurityVC.swift in Sources */,
+				98AC5ABB229FF55D00A4A644 /* RegisterSecurityViewXib.swift in Sources */,
 				8E1D9DF5229FE4A800C003E6 /* UIView.swift in Sources */,
 				8E1D9DFB229FE53100C003E6 /* CustomTextField.swift in Sources */,
 				8EA04715229FAEC5001205A1 /* AppDelegate.swift in Sources */,
