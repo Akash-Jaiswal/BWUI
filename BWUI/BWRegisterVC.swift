@@ -16,14 +16,7 @@ class BWRegisterVC: UIViewController {
     
     @IBOutlet weak var lbl_welcomeStatic: UILabel!
     
-    @IBOutlet weak var btn_downBack: UIButton! {
-        didSet {
-            btn_downBack.layer.borderColor = UIColor.init(named: "DBlue")?.cgColor
-            btn_downBack.layer.borderWidth = 2.0
-            btn_downBack.layer.masksToBounds = true
-            btn_downBack.clipsToBounds = true
-        }
-    }
+    @IBOutlet weak var btn_downBack: UIButton!
     
     
     

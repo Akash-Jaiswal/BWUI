@@ -9,7 +9,6 @@
 import UIKit
 
 class RegisterDetailsVC: UIViewController {
-    
     //MARK: - IBOutlet(s) & Variable(s)
 
     @IBOutlet weak var tableView_registerList: UITableView! {
